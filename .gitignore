@@ -1,0 +1,11 @@
+# SBCL compiled files
+*.fasl
+
+# Files edited by Emacs
+*.lisp~
+*.asd~
+*.lisp#
+.#*
+
+# Histogram files
+*.txt
