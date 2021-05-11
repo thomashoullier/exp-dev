@@ -6,14 +6,11 @@ is:
 λ . exp(-λ.x)
 
 ## Usage
-A generator must be instantiated with proper rate parameter and then
-numbers can be drawn from it. The rate can be read back from the generator
-instance.
+Use the `draw` function to generate exponential deviates with a `rate`
+parameter.
 
 ```common-lisp
-(setf generator (exp-dev:make-exp-gen rate))
-(exp-dev:draw generator) ;=> exponential deviate
-(exp-dev:rate generator) ;=> rate
+(exp-dev:draw rate) ;=> exponential deviate
 ```
 
 ## Implementation
